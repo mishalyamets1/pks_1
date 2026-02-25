@@ -1,0 +1,8 @@
+<Window x:Class="LibraryManager.Views.AuthorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manage Authors" Height="400" Width="600">
+    <Grid>
+        <TextBlock Text="Author Window" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
+</Window>
