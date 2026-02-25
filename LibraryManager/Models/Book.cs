@@ -7,9 +7,9 @@ namespace LibraryManager.Models
         public int AuthorId { get; set; }
         public Author Author { get; set; } = null!;
         public int GenreId { get; set; }
-        public Genre Genre { get; set; } = null!;
+        public Genre Genre { get;set; } = null!;
         public int PublishYear { get; set; }
-        public string ISBN { get; set; } = null!;
+        public string ISBN { get;set; } = null!;
         public int QuantityInStock { get; set; }
     }
 }
