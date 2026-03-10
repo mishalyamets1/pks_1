@@ -93,3 +93,8 @@ C:\Users\User\RiderProjects\LibraryManager\LibraryManager\obj\Debug\net8.0-windo
 C:\Users\User\RiderProjects\LibraryManager\LibraryManager\obj\Debug\net8.0-windows\LibraryManager.pdb
 C:\Users\User\RiderProjects\LibraryManager\LibraryManager\obj\Debug\net8.0-windows\LibraryManager.genruntimeconfig.cache
 C:\Users\User\RiderProjects\LibraryManager\LibraryManager\obj\Debug\net8.0-windows\ref\LibraryManager.dll
+C:\Users\User\RiderProjects\LibraryManager\LibraryManager\obj\Debug\net8.0-windows\LibraryManager.sourcelink.json
+C:\Users\User\RiderProjects\LibraryManager\LibraryManager\obj\Debug\net8.0-windows\Views\AuthorEditWindow.baml
+C:\Users\User\RiderProjects\LibraryManager\LibraryManager\obj\Debug\net8.0-windows\Views\GenreEditWindow.baml
+C:\Users\User\RiderProjects\LibraryManager\LibraryManager\obj\Debug\net8.0-windows\Views\AuthorEditWindow.g.cs
+C:\Users\User\RiderProjects\LibraryManager\LibraryManager\obj\Debug\net8.0-windows\Views\GenreEditWindow.g.cs

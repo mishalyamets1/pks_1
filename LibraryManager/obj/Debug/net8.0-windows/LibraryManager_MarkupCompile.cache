@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\User\RiderProjects\LibraryManager\LibraryManager\App.xaml
-41693909446
+6-605108144
 
-91854515341
+15-933103347
 232-1209163342
-MainWindow.xaml;Views\AuthorWindow.xaml;Views\BookWindow.xaml;Views\GenreWindow.xaml;
+MainWindow.xaml;Views\AuthorEditWindow.xaml;Views\AuthorWindow.xaml;Views\BookWindow.xaml;Views\GenreEditWindow.xaml;Views\GenreWindow.xaml;
 
 False
 

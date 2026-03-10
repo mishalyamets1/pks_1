@@ -1,8 +1,28 @@
 <Window x:Class="LibraryManager.Views.GenreWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Manage Genres" Height="400" Width="600">
-    <Grid>
-        <TextBlock Text="Genre Window" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        Title="Управление жанрами" Height="400" Width="600" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <Grid Background="#F5F5F5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- DataGrid с жанрами -->
+        <DataGrid Grid.Row="0" x:Name="DataGridGenres" AutoGenerateColumns="False" Margin="10,10,10,10"
+                  ItemsSource="{Binding Genres}" SelectedItem="{Binding SelectedGenre}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название" Binding="{Binding Name}" Width="150"/>
+                <DataGridTextColumn Header="Описание" Binding="{Binding Description}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Кнопки -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10,0,10,10" Height="40">
+            <Button Content="+ Добавить" Width="100" Click="AddGenre_Click" Background="#4CAF50" Foreground="White" FontWeight="Bold" Margin="0,0,10,0"/>
+            <Button Content="✎ Редактировать" Width="120" Click="EditGenre_Click" Background="#FF9800" Foreground="White" FontWeight="Bold" Margin="0,0,10,0"/>
+            <Button Content="✕ Удалить" Width="100" Click="DeleteGenre_Click" Background="#F44336" Foreground="White" FontWeight="Bold" Margin="0,0,10,0"/>
+            <Button Content="Закрыть" Width="100" Click="Close_Click" IsCancel="True" Margin="20,0,0,0"/>
+        </StackPanel>
     </Grid>
 </Window>

@@ -47,5 +47,14 @@ namespace LibraryManager.Data
                 entity.Property(g => g.Name).IsRequired().HasMaxLength(50);
             });
         }
+
+        /// <summary>
+        /// Инициализирует базу данных (создает таблицы если их нет)
+        /// </summary>
+        public static void InitializeDatabase()
+        {
+            using var context = new LibraryContext();
+            context.Database.EnsureCreated();
+        }
     }
 }
